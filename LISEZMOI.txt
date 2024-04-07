@@ -1,0 +1,48 @@
+Renseignez ici les noms des membres de votre binôme :
+
+Nom1 - prénom1 : FAWAZ Jad
+Nom2 - prénom2 : HAJJ ASSAF Sam
+
+Si vous avez des commentaires, remarques etc. pour le rendu, vous pouvez les 
+mettre ici:
+Tout les membres du groupes de TD on partager des principes 
+et on a fait l'acte5 avec le binome EL CHAMAA Mohamad ET TAHA Anthony
+
+!!! -  Les deux membres du binôme ont fait les 2 exercices secrets.
+
+-- Acte 1:
+    Complexité: O(2^n)
+
+-- Acte 2:
+    Complexité: O(2^n)
+
+-- Acte 3:
+    Complexité: O(n)
+
+-- Acte 3b:
+    Complexité: O(n^2)
+
+-- Acte 4:
+Explication d'Algorithme:
+
+Pour l'acte 4 de notre algorithme, nous naviguons dans l'arbre de manière récursive. 
+Quand une espèce est trouvée, l'algorithme renvoie 1 si elle fait partie de la séquence ciblée, sinon il renvoie 0. 
+Concernant les caractéristiques, si une combinaison de 1 et 0 est reçue des sous-arbres gauche et droit, 
+l'algorithme vérifie la présence complète des espèces concernées. Si toutes sont présentes, 
+il insère la caractéristique correspondante et renvoie 3. Si non, il renvoie 2. Si les deux sous-arbres renvoient 2, 
+alors 2 est renvoyé par l'algorithme. Si l'un des sous-arbres renvoie 3, alors 3 est immédiatement renvoyé. 
+Si les deux renvoient 1, alors 1 est renvoyé. Dans notre fonction auxiliaire, 
+recevoir un 1 signifie que toutes les espèces de l'arbre correspondent à la nouvelle caractéristique, qui est alors ajoutée à la racine. 
+Si un 3 est reçu, 1 est renvoyé, et pour tout autre résultat, 0 est renvoyé par défaut.
+
+-- Acte 5:
+Pour l'acte 5, nous avons commencé l'élaboration de l'algorithme, mais nous n'avons pas disposé de suffisamment de temps pour le finaliser.
+Mais ca marche dans la plupart des cas.
+
+Explication du format:
+1. nb espèces
+2. nb caractéristiques
+3. liste espèces
+4. liste caractéristiques
+5. matrice nb_especes x nb_caracteristiques (1 = oui, 0 = non)
+6. liste indicant le nb des espèces pour chaque caractéristique.
